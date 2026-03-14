@@ -1,0 +1,23 @@
+packages:
+  "framer-motion": "For polished page transitions and animations"
+  "recharts": "For rendering beautiful dashboard charts and KPIs"
+  "date-fns": "For elegant date formatting across tables and details"
+  "react-hook-form": "For robust form state management"
+  "@hookform/resolvers": "For Zod schema validation in forms"
+  "zod": "For strict runtime type validation"
+  "clsx": "For dynamic class merging"
+  "tailwind-merge": "For conflict-free Tailwind class resolution"
+  "lucide-react": "For beautiful consistent iconography"
+
+images:
+  - path: "artifacts/core-inventory/public/images/auth-bg.png"
+    description: "Abstract modern gradient mesh in deep dark blue and slate colors, professional enterprise feel, subtle tech grid overlay"
+    aspect_ratio: "16:9"
+  - path: "artifacts/core-inventory/public/images/logo-icon.png"
+    description: "Minimalist geometric 3D box icon in vibrant blue, clean professional logo mark on transparent background"
+    aspect_ratio: "1:1"
+
+notes:
+  - "The API is pre-generated via Orval in @workspace/api-client-react"
+  - "Auth is managed via localStorage token and an intercepted window.fetch in App.tsx"
+  - "Using wouter for routing and TanStack Query for data fetching"
